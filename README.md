@@ -13,6 +13,7 @@ its correct location in the hierarchy:
             {exometer_report_statsd, [
                 {hostname, "testhost"},
                 {port, 4125},
+                {my_pod_name, "pod name"},
                 {prefix, "prefix_"},
                 {type_map, []}
             ]}
